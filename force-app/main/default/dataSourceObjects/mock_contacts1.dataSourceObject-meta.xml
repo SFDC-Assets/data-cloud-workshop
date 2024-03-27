@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSourceObject xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataSource>mock_contacts</dataSource>
+    <dataSourceFields>
+        <fullName>city</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>city</externalName>
+        <fieldFormula>sourceField[&apos;city&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_city</keyQualifierName>
+        <masterLabel>city</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>company</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>company</externalName>
+        <fieldFormula>sourceField[&apos;company&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_company</keyQualifierName>
+        <masterLabel>company</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>country</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>country</externalName>
+        <fieldFormula>sourceField[&apos;country&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_country</keyQualifierName>
+        <masterLabel>country</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>DataSource</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>System</definitionCreationType>
+        <externalName>DataSource</externalName>
+        <fieldFormula>&apos;mock_contacts&apos;</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>true</isFormula>
+        <keyQualifierName>KQ_DataSource</keyQualifierName>
+        <masterLabel>Data Source</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>DataSourceObject</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>System</definitionCreationType>
+        <externalName>DataSourceObject</externalName>
+        <fieldFormula>env[&apos;filename&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>true</isFormula>
+        <keyQualifierName>KQ_DataSourceObject</keyQualifierName>
+        <masterLabel>Data Source Object</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>email</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>email</externalName>
+        <fieldFormula>sourceField[&apos;email&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_email</keyQualifierName>
+        <masterLabel>email</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>first_name</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>first_name</externalName>
+        <fieldFormula>sourceField[&apos;first_name&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_first_name</keyQualifierName>
+        <masterLabel>first_name</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>gender</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>gender</externalName>
+        <fieldFormula>sourceField[&apos;gender&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_gender</keyQualifierName>
+        <masterLabel>gender</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>id</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>id</externalName>
+        <fieldFormula>sourceField[&apos;id&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_id</keyQualifierName>
+        <masterLabel>id</masterLabel>
+        <primaryIndexOrder>1</primaryIndexOrder>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>InternalOrganization</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>System</definitionCreationType>
+        <externalName>InternalOrganization</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>true</isFormula>
+        <keyQualifierName>KQ_InternalOrganization</keyQualifierName>
+        <masterLabel>Internal Organization</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>ip_address</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>ip_address</externalName>
+        <fieldFormula>sourceField[&apos;ip_address&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_ip_address</keyQualifierName>
+        <masterLabel>ip_address</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>last_name</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>last_name</externalName>
+        <fieldFormula>sourceField[&apos;last_name&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_last_name</keyQualifierName>
+        <masterLabel>last_name</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>phone</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>phone</externalName>
+        <fieldFormula>sourceField[&apos;phone&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_phone</keyQualifierName>
+        <masterLabel>phone</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>state</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>state</externalName>
+        <fieldFormula>sourceField[&apos;state&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_state</keyQualifierName>
+        <masterLabel>state</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>street_address</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>street_address</externalName>
+        <fieldFormula>sourceField[&apos;street_address&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_street_address</keyQualifierName>
+        <masterLabel>street_address</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>url</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>url</externalName>
+        <fieldFormula>sourceField[&apos;url&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_url</keyQualifierName>
+        <masterLabel>url</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>zip_code</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>zip_code</externalName>
+        <fieldFormula>sourceField[&apos;zip_code&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_zip_code</keyQualifierName>
+        <masterLabel>zip_code</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <externalRecordIdentifier>a01_contacts_mock_data_csv</externalRecordIdentifier>
+    <masterLabel>mock contacts</masterLabel>
+    <objectType>Object</objectType>
+</DataSourceObject>

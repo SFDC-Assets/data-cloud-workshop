@@ -1,0 +1,15 @@
+{
+    "orgName": "atriwedi company",
+    "edition": "Developer",
+    "features": [
+        "CustomerDataPlatform"
+    ],
+    "settings": {
+        "lightningExperienceSettings": {
+            "enableS1DesktopEnabled": true
+        },
+        "customerDataPlatformSettings": {
+            "enableCustomerDataPlatform":true
+        }
+    }
+}

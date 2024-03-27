@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSourceObject xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataSource>external_contacts</dataSource>
+    <dataSourceFields>
+        <fullName>address</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>address</externalName>
+        <fieldFormula>sourceField[&apos;address&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_address</keyQualifierName>
+        <masterLabel>address</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>alphanumeric</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>alphanumeric</externalName>
+        <fieldFormula>sourceField[&apos;alphanumeric&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_alphanumeric</keyQualifierName>
+        <masterLabel>alphanumeric</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>country</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>country</externalName>
+        <fieldFormula>sourceField[&apos;country&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_country</keyQualifierName>
+        <masterLabel>country</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>currency</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>currency</externalName>
+        <fieldFormula>sourceField[&apos;currency&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_currency</keyQualifierName>
+        <masterLabel>currency</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>DataSource</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>System</definitionCreationType>
+        <externalName>DataSource</externalName>
+        <fieldFormula>&apos;external_contacts&apos;</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>true</isFormula>
+        <keyQualifierName>KQ_DataSource</keyQualifierName>
+        <masterLabel>Data Source</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>DataSourceObject</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>System</definitionCreationType>
+        <externalName>DataSourceObject</externalName>
+        <fieldFormula>env[&apos;filename&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>true</isFormula>
+        <keyQualifierName>KQ_DataSourceObject</keyQualifierName>
+        <masterLabel>Data Source Object</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>email</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>email</externalName>
+        <fieldFormula>sourceField[&apos;email&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_email</keyQualifierName>
+        <masterLabel>email</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>InternalOrganization</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>System</definitionCreationType>
+        <externalName>InternalOrganization</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>true</isFormula>
+        <keyQualifierName>KQ_InternalOrganization</keyQualifierName>
+        <masterLabel>Internal Organization</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>list</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>list</externalName>
+        <fieldFormula>sourceField[&apos;list&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_list</keyQualifierName>
+        <masterLabel>list</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>name</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>name</externalName>
+        <fieldFormula>sourceField[&apos;name&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_name</keyQualifierName>
+        <masterLabel>name</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>numberrange</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>numberrange</externalName>
+        <fieldFormula>sourceField[&apos;numberrange&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_numberrange</keyQualifierName>
+        <masterLabel>numberrange</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>phone</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>phone</externalName>
+        <fieldFormula>sourceField[&apos;phone&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_phone</keyQualifierName>
+        <masterLabel>phone</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>postalzip</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>postalZip</externalName>
+        <fieldFormula>sourceField[&apos;postalZip&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_postalzip</keyQualifierName>
+        <masterLabel>postalZip</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>region</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>region</externalName>
+        <fieldFormula>sourceField[&apos;region&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_region</keyQualifierName>
+        <masterLabel>region</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>text</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalName>text</externalName>
+        <fieldFormula>sourceField[&apos;text&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isFormula>false</isFormula>
+        <keyQualifierName>KQ_text</keyQualifierName>
+        <masterLabel>text</masterLabel>
+        <primaryIndexOrder>1</primaryIndexOrder>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <externalRecordIdentifier>external_contacts_csv</externalRecordIdentifier>
+    <masterLabel>extContacts</masterLabel>
+    <objectType>Object</objectType>
+</DataSourceObject>
