@@ -1,6 +1,7 @@
 {
   "orgName": "Data Cloud Workshop",
   "edition": "Enterprise",
+  "hasSampleData": true,
   "features": ["ContactsToMultipleAccounts","EnableSetPasswordInApi", "CUSTOMERDATAPLATFORM", "DataComDnbAccounts", "DATACOMDNBACCOUNTSENTERPRISE", "ADDDATACOMCRMRECORDCREDIT:30", "WavePlatform", "EinsteinAnalyticsPlus", "AnalyticsAdminPerms", "AnalyticsAppEmbedded", "DevelopmentWave", "EinsteinAnalyticsPlus"],
   "settings": {
     "lightningExperienceSettings": {
